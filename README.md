@@ -6,22 +6,6 @@
 [![Microsoft Graph API](https://img.shields.io/badge/Microsoft%20Graph-API-orange)](https://docs.microsoft.com/graph/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 📋 Índice
-
-- [Sobre](#sobre)
-- [Funcionalidades](#funcionalidades)
-- [Estrutura Criada](#estrutura-criada)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Configuração Azure](#configuração-azure)
-- [Como Usar](#como-usar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Troubleshooting](#troubleshooting)
-- [Aprendizados](#aprendizados)
-- [Melhorias Futuras](#melhorias-futuras)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
-
 ---
 
 ## 🎯 Sobre
