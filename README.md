@@ -2,6 +2,10 @@
 
 > Automatize a criação de uma estrutura completa e organizada de estudos no OneNote usando Python e Microsoft Graph API
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Microsoft Graph API](https://img.shields.io/badge/Microsoft%20Graph-API-orange)](https://docs.microsoft.com/graph/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ## 📋 Índice
 
 - [Sobre](#sobre)
@@ -14,6 +18,7 @@
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Troubleshooting](#troubleshooting)
 - [Aprendizados](#aprendizados)
+- [Melhorias Futuras](#melhorias-futuras)
 - [Contribuindo](#contribuindo)
 - [Licença](#licença)
 
@@ -123,7 +128,7 @@ Antes de começar, você precisa ter:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/onenote-automation.git
+git clone https://github.com/lucas-costacurta/onenote-automation.git
 cd onenote-automation
 ```
 
@@ -284,6 +289,10 @@ com todas as seções e páginas organizadas!
 ```
 onenote-automation/
 │
+├── docs/
+│   └── images/
+│       └── onenote-structure.png
+│
 ├── main.py                 # Script principal
 ├── requirements.txt        # Dependências Python
 ├── .env                    # Variáveis de ambiente (CLIENT_ID)
@@ -421,8 +430,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Lucas Costacurta Ferro**
 
-- [GitHub:](https://github.com/lucas-costacurta)
-- [LinkedIn:](https://www.linkedin.com/in/lucascferro/)
+- GitHub: [@lucas-costacurta](https://github.com/lucas-costacurta)
+- LinkedIn: [Lucas Costacurta Ferro](https://www.linkedin.com/in/lucascferro/)
 
 ---
 
@@ -434,14 +443,29 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-**⭐ Se este projeto te ajudou, considere dar uma estrela no GitHub!**
-
----
-
 ## 📸 Screenshots
 
 ### Estrutura Final no OneNote
 
-![OneNote Structure](C:\Users\lcfer\OneDrive\Documentos\03_Estudo\00_Projetos\Data Engineering and ML\04_automatizacao_one_note\image.png)
+![OneNote Structure](docs/images/onenote-structure.png)
 
 *Todas as 13 seções organizadas e prontas para uso!*
+
+---
+
+## 🎯 Use Cases
+
+Este projeto é útil para:
+
+- 📚 **Estudantes** organizando materiais de curso
+- 💼 **Profissionais** estruturando conhecimento da área
+- 🎓 **Instrutores** criando templates para alunos
+- 🚀 **Transição de carreira** (como no meu caso: BI → Data Engineering)
+
+---
+
+**⭐ Se este projeto te ajudou, considere dar uma estrela no GitHub!**
+
+---
+
+**Desenvolvido com ❤️ durante minha jornada de transição para Engenharia de Dados**
