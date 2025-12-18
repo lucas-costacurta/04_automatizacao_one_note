@@ -2,6 +2,10 @@
 
 > Automatize a criação de uma estrutura completa e organizada de estudos no OneNote usando Python e Microsoft Graph API
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Microsoft Graph API](https://img.shields.io/badge/Microsoft%20Graph-API-orange)](https://docs.microsoft.com/graph/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ## 📋 Índice
 
 - [Sobre](#sobre)
