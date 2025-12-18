@@ -26,7 +26,7 @@ SECTIONS = {
         "Modelagem de Dados",
         "Glossário Técnico"
     ],
-    "2. SQL & Bancos de Dados": [
+    "2. SQL e Bancos de Dados": [
         "SQL Básico",
         "SQL Avançado",
         "Bancos Relacionais",
@@ -52,7 +52,7 @@ SECTIONS = {
         "Dagster",
         "Outros"
     ],
-    "6. Big Data & Processamento": [
+    "6. Big Data e Processamento": [
         "Apache Spark",
         "Processamento em Batch",
         "Streaming"
@@ -63,39 +63,39 @@ SECTIONS = {
         "BigQuery",
         "Redshift"
     ],
-    "8. DevOps & Infraestrutura": [
-        "Git & GitHub",
+    "8. DevOps e Infraestrutura": [
+        "Git e GitHub",
         "Docker",
         "CI/CD",
         "Kubernetes (Básico)",
         "Terraform (Básico)"
     ],
-    "9. Qualidade & Governança de Dados": [
+    "9. Qualidade e Governança de Dados": [
         "Data Quality",
         "Data Observability",
         "Data Governance"
     ],
-    "10. Projetos & Portfolio": [
+    "10. Projetos e Portfolio": [
         "Projeto 1: ETL Simples",
         "Projeto 2: Data Warehouse",
         "Projeto 3: Pipeline Cloud",
         "Projeto 4: Streaming",
         "Ideias de Projetos Futuros"
     ],
-    "11. Carreira & Mercado": [
+    "11. Carreira e Mercado": [
         "Roadmap de Estudos",
         "Vagas e Requisitos",
         "Networking",
         "Entrevistas",
-        "Currículo & LinkedIn"
+        "Currículo e LinkedIn"
     ],
-    "12. Recursos & Referências": [
+    "12. Recursos e Referências": [
         "Cursos Online",
         "Livros",
-        "Blogs & Sites",
+        "Blogs e Sites",
         "YouTube Channels",
         "Datasets Públicos",
-        "Ferramentas & SaaS"
+        "Ferramentas e SaaS"
     ],
     "13. Anotações Rápidas": [
         "Daily Notes",
@@ -176,6 +176,7 @@ def get_existing_notebook(token, notebook_name):
     return None
     
 def create_section(token, notebook_id, section_name):
+    clean_name = sanitize_name(section_name)
     url = f"https://graph.microsoft.com/v1.0/me/onenote/notebooks/{notebook_id}/sections"
     headers = {
         'Authorization': f'Bearer {token}',
@@ -196,6 +197,7 @@ def create_section(token, notebook_id, section_name):
         return None
     
 def create_page(token, section_id, page_title):
+    clean_name = sanitize_name(page_title)
     url = f"https://graph.microsoft.com/v1.0/me/onenote/sections/{section_id}/pages"
     headers = {
         'Authorization': f'Bearer {token}',
