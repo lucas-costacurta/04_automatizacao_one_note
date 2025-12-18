@@ -1,2 +1,3 @@
 python-dotenv
-msal requests
+msal 
+requests
