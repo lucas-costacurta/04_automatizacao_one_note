@@ -422,7 +422,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 **Lucas Costacurta Ferro**
 
 - GitHub: [@lcfer](https://github.com/lcfer)
-- LinkedIn: [seu-perfil](https://linkedin.com/in/seu-perfil)
+- LinkedIn: [seu-perfil](https://www.linkedin.com/in/lucascferro/)
 
 ---
 
