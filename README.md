@@ -2,10 +2,6 @@
 
 > Automatize a criação de uma estrutura completa e organizada de estudos no OneNote usando Python e Microsoft Graph API
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Microsoft Graph API](https://img.shields.io/badge/Microsoft%20Graph-API-orange)](https://docs.microsoft.com/graph/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 ## 📋 Índice
 
 - [Sobre](#sobre)
@@ -420,12 +416,6 @@ Contribuições são bem-vindas! Para contribuir:
 
 ---
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👤 Autor
 
 **Lucas Costacurta Ferro**
@@ -440,32 +430,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) - Teste APIs online
 - [OneNote API Reference](https://docs.microsoft.com/graph/api/resources/onenote)
 - [OAuth 2.0 Explained](https://oauth.net/2/)
-
----
-
-## 📸 Screenshots
-
-### Estrutura Final no OneNote
-
-![OneNote Structure](docs/images/onenote-structure.png)
-
-*Todas as 13 seções organizadas e prontas para uso!*
-
----
-
-## 🎯 Use Cases
-
-Este projeto é útil para:
-
-- 📚 **Estudantes** organizando materiais de curso
-- 💼 **Profissionais** estruturando conhecimento da área
-- 🎓 **Instrutores** criando templates para alunos
-- 🚀 **Transição de carreira** (como no meu caso: BI → Data Engineering)
-
----
-
-**⭐ Se este projeto te ajudou, considere dar uma estrela no GitHub!**
-
----
-
-**Desenvolvido com ❤️ durante minha jornada de transição para Engenharia de Dados**
